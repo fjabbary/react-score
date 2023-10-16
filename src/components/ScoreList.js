@@ -2,9 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 function ScoreList({ playerName, setPlayerScores, playerScores }) {
 
-    const [playerScore, setPlayerScore] = useState(0)
-
-
+    const [playerScore, setPlayerScore] = useState("")
 
     function addScore() {
         if (playerScore != 0) {

@@ -28,3 +28,20 @@
     margin-right: 4px;
   }
 }
+
+.landing {
+  background-image: url("https://img.freepik.com/premium-vector/playing-cards-glowing-blue-background_1394-1312.jpg?1");
+  background-size: contain;
+  height: 100vh;
+  background-position: center center;
+  opacity: 1;
+}
+
+.btn-light {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-150%);
+  color: #fff;
+  background-color: crimson;
+}
